@@ -61,11 +61,12 @@ nav li a {
 .banner {
     display: flex;
     justify-content: space-between;
-    margin: 0 35px 0 200px;
+    margin: 110px 35px 30px 250px;
 }
 
 .banner-content {
     width: 580px;
+    padding: 20px;
 }
 
 .banner-greetings {
@@ -87,4 +88,65 @@ nav li a {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    /* background-size: 100px; */
+}
+
+/* main styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* about me */
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #474747;
+}
+
+.secondary-background {
+    background-color: #fff8f3;
+}
+
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description {
+    font-weight: 800;
+}
+
+/* text center */
+.text-center {
+    text-align: center;
+    padding: 10px;
+}
+
+/* skills section styles */
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.single-skill {
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
 }
